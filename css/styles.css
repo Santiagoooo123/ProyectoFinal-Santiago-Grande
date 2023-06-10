@@ -41,24 +41,24 @@ p {
   padding: 2rem;
   padding-bottom: 0;
 }
-.hero__header__right {
+.hero__header .header__right {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   gap: 1rem;
 }
-.hero__header__right__menu {
+.hero__header .menu {
   list-style: none;
   display: flex;
   font-size: 1.4rem;
   gap: 1.4rem;
   letter-spacing: 2px;
 }
-.hero__header .menu a {
+.hero__header .menu__item {
+  list-style: none;
   color: white;
 }
-.hero__header .menu a__item {
-  list-style: none;
+.hero__header .menu__item a {
   color: white;
 }
 .hero__header .hero__main {
@@ -68,18 +68,18 @@ p {
 .hero__header .hero__main > div {
   flex: 1;
 }
-.hero__header .hero__main__text {
+.hero__header .hero__main .hero__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.hero__header .hero__main__img {
+.hero__header .hero__main .hero__img {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-block: 3rem;
 }
-.hero__header .hero__main__img img {
+.hero__header .hero__main .hero__img img {
   width: 700px;
 }
 
@@ -137,4 +137,46 @@ footer .footer .footer__botom .icons {
   gap: 0.5rem;
 }
 
-/*# sourceMappingURL=style.css.map */
+.foodtruck1 {
+  font-size: 4rem;
+  text-shadow: 4px 4px red;
+  text-align: center;
+}
+.foodtruck1 .imgfoodtruck {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foodtruck1 .foodtruck2 {
+  font-size: 1.5rem;
+  height: 20vh;
+  text-align: center;
+}
+
+.locales p {
+  font-size: 2rem;
+}
+
+.local1 {
+  font-size: 4rem;
+  text-shadow: 4px 4px red;
+  text-align: center;
+}
+
+.imglocal, .imglocal1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.informacion1 {
+  font-size: 4rem;
+  text-shadow: 4px 4px red;
+  text-align: center;
+}
+
+.informacion2 {
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
