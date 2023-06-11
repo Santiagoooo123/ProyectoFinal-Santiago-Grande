@@ -1,4 +1,3 @@
-@charset "UTF-8";
 h1 {
   color: white;
 }
@@ -23,7 +22,7 @@ p {
   color: white;
 }
 
-´ {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -38,8 +37,14 @@ p {
 .hero__header {
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
   padding-bottom: 0;
+  width: 100%;
+  background-color: black;
+}
+.hero__header .header {
+  display: flex;
+  align-items: center;
+  gap: 60rem;
 }
 .hero__header .header__right {
   display: flex;
@@ -137,20 +142,152 @@ footer .footer .footer__botom .icons {
   gap: 0.5rem;
 }
 
+.hero__text h4 {
+  font-weight: 300;
+  font-size: 1.2rem;
+  border: 2px dashed red;
+  width: max-content;
+  padding: 0.6rem;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 5rem;
+  text-shadow: 4px 4px 0 rgb(253, 1, 1);
+}
+
+h2 {
+  font-size: 4rem;
+  text-shadow: 4px 4px 0 rgb(253, 1, 1);
+}
+
+.grid {
+  background-color: black;
+  padding: 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "item1 item2" "item1 item3";
+  gap: 2rem;
+}
+
+.grid__item {
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid__item1 {
+  grid-area: item1;
+  background-image: url("../img/grid1.jpg");
+  height: 400px;
+}
+
+.grid__item2 {
+  grid-area: item2;
+  background-image: url("../img/grid2.jpg");
+}
+
+.grid__item3 {
+  grid-area: item3;
+  background-image: url("../img/grid3.jpg");
+}
+
+.enjoy {
+  background-color: black;
+  padding: 6rem;
+}
+.enjoy .titles {
+  text-align: center;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.enjoy .titles h4 {
+  background-color: red;
+  padding: 2rem;
+  font-size: 3rem;
+}
+.enjoy .titles h2 {
+  font-size: 4rem;
+  text-shadow: 4px 4px red;
+}
+.enjoy .titles p {
+  font-size: 2rem;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card img {
+  max-width: 80%;
+}
+.card h4 {
+  font-size: 1.6rem;
+}
+.card p {
+  width: 65%;
+}
+.card a {
+  font-size: 1rem;
+  background-color: red;
+  padding: 0.75rem 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.enjoy1 {
+  background-color: black;
+}
+
+.titles {
+  font-size: 5rem;
+  text-shadow: 4px 4px 0 rgb(253, 1, 1);
+}
+
+.caja {
+  display: grid;
+  grid-template-columns: 840px 840px 840px;
+  gap: 3rem;
+}
+
+.caja1 {
+  font-size: 1.2rem;
+}
+
+.food {
+  background-color: black;
+}
+
 .foodtruck1 {
   font-size: 4rem;
   text-shadow: 4px 4px red;
   text-align: center;
 }
-.foodtruck1 .imgfoodtruck {
+
+.imgfoodtruck {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.foodtruck1 .foodtruck2 {
+
+.foodtruck2 {
   font-size: 1.5rem;
   height: 20vh;
   text-align: center;
+}
+
+.local {
+  background-color: black;
 }
 
 .locales p {
@@ -163,20 +300,33 @@ footer .footer .footer__botom .icons {
   text-align: center;
 }
 
-.imglocal, .imglocal1 {
+.imglocal {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.imglocal1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  background-color: black;
+  display: flex;
 }
 
 .informacion1 {
   font-size: 4rem;
   text-shadow: 4px 4px red;
   text-align: center;
+  height: 20vh;
 }
 
 .informacion2 {
   font-size: 2rem;
+  height: 25vh;
 }
 
 /*# sourceMappingURL=styles.css.map */

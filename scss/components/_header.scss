@@ -1,8 +1,16 @@
 .hero__header {
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
     padding-bottom: 0;
+    width: 100%;
+    background-color: black;
+
+    .header {
+        display: flex;
+        align-items: center;
+        gap: 60rem;
+
+    }
 
     .header__right {
         display: flex;
@@ -21,6 +29,7 @@
         &__item {
             list-style: none;
             color: white;
+        
 
             a {
                 color: white;

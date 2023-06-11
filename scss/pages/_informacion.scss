@@ -1,10 +1,20 @@
-.informacion1{
-    font-size: 4rem;
+
+.main {
+  background-color: black;
+  display: flex;
+
+  
+}
+.informacion1 {
+   font-size: 4rem;
     text-shadow: 4px 4px red;
     text-align: center;
-  }
+    height: 20vh;
+    
+}
+
+.informacion2 {
+  font-size: 2rem;
+  height: 25vh;
   
-  .informacion2{
-    font-size: 2rem;
-  }
-  
+}
