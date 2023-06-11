@@ -8,7 +8,9 @@
     .header {
         display: flex;
         align-items: center;
-        justify-content:space-between ;
+        justify-content: space-between;
+        padding: 0 30px;
+    
 
     }
 
@@ -31,7 +33,8 @@
             color: white;
         
 
-            a {
+            a:hover {
+                border: 3px solid red;
                 color: white;
                 
             }
