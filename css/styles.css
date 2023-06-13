@@ -430,6 +430,9 @@ h2 {
   .titles h2 {
     font-size: 2rem;
   }
+  .caja {
+    display: block;
+  }
   .footer {
     padding: 2rem;
   }
@@ -563,5 +566,38 @@ h2 {
     order: -1;
   }
 }
+/**** SECCION TABLET****/
+@media screen and (max-width: 769px) {
+  .hero__header .header {
+    display: inline;
+  }
+  .hero__header .header__right {
+    align-items: baseline;
+    padding: 0.4rem;
+  }
+  .hero__text h1 {
+    font-size: 3rem;
+  }
+  .hero__text h2 {
+    font-size: 3rem;
+  }
+  .hero__header .hero__main .hero__img img {
+    width: 150px;
+  }
+  .cards {
+    display: block;
+  }
+  .caja {
+    grid-template-columns: none;
+    text-align: center;
+  }
+  .enjoy .titles h2 {
+    font-size: 3rem;
+  }
+  .imgfoodtruck {
+    width: 43%;
+  }
+}
+/****SECCION DESKTOP****/
 
 /*# sourceMappingURL=styles.css.map */

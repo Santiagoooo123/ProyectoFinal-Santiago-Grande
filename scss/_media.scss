@@ -1,7 +1,7 @@
 /***SECCION INICIO***/
 
-
 @media screen and (max-width:480px) {
+
     .hero__header {
         flex-direction: column;
         justify-content: center center;
@@ -17,6 +17,7 @@
         }
 
     }
+
     .hero__main {
         flex-direction: column;
     }
@@ -42,9 +43,9 @@
     }
 
 
-    
 
-    
+
+
 
 
     .grid {
@@ -76,7 +77,7 @@
         }
     }
 
-    
+
 
     .cards {
         flex-direction: column;
@@ -101,12 +102,13 @@
             order: -1;
         }
     }
-
-    
-
-
-
 }
+
+
+
+
+
+
 
 
 /***SECCION MENU***/
@@ -134,6 +136,10 @@
         font-size: 2rem;
     }
 
+    .caja {
+        display: block;
+    }
+
     .footer {
         padding: 2rem;
     }
@@ -152,14 +158,14 @@
     .footer__botom .iconos {
         order: -1;
     }
+
 }
 
 
 
-
 /***SECCION FOODTRUCK***/
-
 @media screen and (max-width:480px) {
+
     .hero__header {
         flex-direction: column;
         justify-content: center center;
@@ -201,12 +207,11 @@
     .footer__botom .iconos {
         order: -1;
     }
-
 }
 
 
-/***SECCION LOCALES***/
 
+/***SECCION LOCALES***/
 @media screen and (max-width:480px) {
     .hero__header {
         flex-direction: column;
@@ -271,8 +276,8 @@
 
 
 /***SECCION INFORMACION***/
-
 @media screen and (max-width:480px) {
+
     .hero__header {
         flex-direction: column;
         justify-content: center center;
@@ -316,4 +321,56 @@
     .footer__botom .iconos {
         order: -1;
     }
+}
+
+/**** SECCION TABLET****/
+
+@media screen and (max-width:769px) {
+    .hero__header .header {
+        display: inline;
+
+    }
+
+    .hero__header .header__right {
+        align-items: baseline;
+        padding: 0.4rem;
+    }
+
+
+    .hero__text h1 {
+        font-size: 3rem;
+    }
+
+    .hero__text h2 {
+        font-size: 3rem;
+    }
+
+    .hero__header .hero__main .hero__img img {
+        width: 150px;
+    }
+
+    .cards {
+        display: block;
+    }
+
+    .caja {
+        grid-template-columns: none;
+        text-align: center;
+    }
+
+    .enjoy .titles h2 {
+        font-size: 3rem;
+    }
+
+    .imgfoodtruck {
+        width: 43%;
+    }
+
+
+}
+
+/****SECCION DESKTOP****/
+
+@media screen and (max-width:1024px){
+     
 }
