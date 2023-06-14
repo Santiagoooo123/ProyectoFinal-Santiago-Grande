@@ -187,16 +187,19 @@ h2 {
   grid-area: item1;
   background-image: url("../img/grid1.jpg");
   height: 400px;
+  width: 100%;
 }
 
 .grid__item2 {
   grid-area: item2;
   background-image: url("../img/grid2.jpg");
+  width: 100%;
 }
 
 .grid__item3 {
   grid-area: item3;
   background-image: url("../img/grid3.jpg");
+  width: 100%;
 }
 
 .enjoy {
@@ -502,7 +505,6 @@ h2 {
   }
   .imglocal img {
     align-self: flex-start;
-    width: 464px;
   }
   .imglocal p {
     font-size: 1rem;
