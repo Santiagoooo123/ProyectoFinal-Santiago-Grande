@@ -55,9 +55,7 @@ footer {
           justify-content: space-between;
           color: white;
 
-          .icons:hover {
-            background-color: rgb(17, 17, 17);
-            transform: scale(1.5);
+          .icons {
               display: flex;
               gap: 0.5rem;
           }

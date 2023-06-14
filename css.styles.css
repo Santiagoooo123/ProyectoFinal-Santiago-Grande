@@ -140,9 +140,7 @@ footer .footer .footer__botom {
   justify-content: space-between;
   color: white;
 }
-footer .footer .footer__botom .icons:hover {
-  background-color: rgb(17, 17, 17);
-  transform: scale(1.5);
+footer .footer .footer__botom .icons {
   display: flex;
   gap: 0.5rem;
 }
@@ -344,6 +342,7 @@ h2 {
   padding: 1%;
 }
 
+/****SECCION MOVIL****/
 /***SECCION INICIO***/
 @media screen and (max-width: 480px) {
   .hero__header {
@@ -468,8 +467,8 @@ h2 {
   .foodtruck1 h1 {
     font-size: 3rem;
   }
-  .imgfoodtruck img {
-    width: 400px;
+  .imgfoodtruck {
+    width: 100%;
   }
 }
 .footer {
@@ -509,6 +508,7 @@ h2 {
   }
   .imglocal img {
     align-self: flex-start;
+    width: 100%;
   }
   .imglocal p {
     font-size: 1rem;
@@ -550,7 +550,7 @@ h2 {
     align-items: flex-start;
   }
   .informacion1 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .informacion2 p {
     text-align: center;
@@ -572,7 +572,24 @@ h2 {
     order: -1;
   }
 }
-/**** SECCION TABLET****/
+@media screen and (max-width: 449px) {
+  .enjoy .titles h4 {
+    font-size: 1.9rem;
+  }
+  footer .footer__top h2 {
+    font-size: 2rem;
+  }
+  footer .footer__top p {
+    font-size: 0.8rem;
+  }
+  .imgfoodtruck {
+    width: 100%;
+  }
+  .informacion1 h1 {
+    font-size: 1rem;
+  }
+}
+/****SECCION TABLET****/
 @media screen and (max-width: 769px) {
   .hero__header .header {
     display: inline;
@@ -604,14 +621,10 @@ h2 {
     font-size: 2rem;
   }
   .imgfoodtruck {
-    width: 43%;
+    width: 100%;
   }
 }
-@media screen and (max-width: 449px) {
-  .enjoy .titles h4 {
-    font-size: 1.9rem;
-  }
-}
+/****SECCION DESKTOP***/
 @media screen and (max-width: 958px) {
   .hero__header .menu {
     display: block;
@@ -620,6 +633,9 @@ h2 {
 @media screen and (max-width: 728px) {
   .hero__text h4 {
     display: none;
+  }
+  .informacion1 h1 {
+    font-size: 2rem;
   }
 }
 
