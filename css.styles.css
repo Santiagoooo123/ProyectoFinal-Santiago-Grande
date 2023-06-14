@@ -609,12 +609,12 @@ h2 {
     font-size: 1.9rem;
   }
 }
-@media screen and (max-width: 449px) and (max-width: 958px) {
+@media screen and (max-width: 958px) {
   .hero__header .menu {
     display: block;
   }
 }
-@media screen and (max-width: 449px) and (max-width: 728px) {
+@media screen and (max-width: 728px) {
   .hero__text h4 {
     display: none;
   }
