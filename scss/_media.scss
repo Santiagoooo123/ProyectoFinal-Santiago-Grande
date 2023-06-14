@@ -186,7 +186,12 @@
     }
 
     .imgfoodtruck img {
+    
         width: 400px;
+}
+
+
+        
     }
 
     .footer {
@@ -207,7 +212,7 @@
     .footer__botom .iconos {
         order: -1;
     }
-}
+
 
 
 
@@ -234,7 +239,7 @@
 
     .imglocal img {
         align-self: flex-start;
-        
+
     }
 
     .imglocal p {
@@ -244,7 +249,7 @@
 
     .imglocal1 img {
         align-self: flex-start;
-        width: 464px;
+        width: 100%
 
     }
 
@@ -252,6 +257,7 @@
         font-size: 1rem;
 
     }
+
 
     .footer {
         padding: 2rem;
@@ -338,11 +344,11 @@
 
 
     .hero__text h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .hero__text h2 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .hero__header .hero__main .hero__img img {
@@ -369,27 +375,23 @@
 
 }
 
-    
 
-@media screen and (max-width:449px){
+
+@media screen and (max-width:449px) {
     .enjoy .titles h4 {
         font-size: 1.9rem;
+
+    }
+
+    @media screen and (max-width:958px) {
+        .hero__header .menu {
+            display: block;
+        }
+    }
+
+    @media screen and (max-width:728px) {
+        .hero__text h4 {
+            display: none;
+        }
     }
 }
-@media screen and (max-width:958px) {
-    .hero__header .menu{
-        display: block;
-    }
-}
-@media screen and (max-width:728px){
-    .hero__text h4 {
-        display: none;
-    }
-}
- 
-    
- 
-
-
-
- 
