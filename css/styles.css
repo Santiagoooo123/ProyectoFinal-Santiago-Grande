@@ -335,13 +335,6 @@ h2 {
   height: 20vh;
 }
 
-.informacion2:hover {
-  transform: scale(1);
-  font-size: 2rem;
-  height: 25vh;
-  padding: 1%;
-}
-
 /****SECCION MOVIL****/
 /***SECCION INICIO***/
 @media screen and (max-width: 480px) {
