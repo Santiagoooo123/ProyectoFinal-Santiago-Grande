@@ -1,3 +1,5 @@
+/***base***/
+
 h1 {
   color: white;
 }
@@ -29,6 +31,7 @@ p {
   list-style: none;
   color: white;
 }
+
 /****seccion header****/
 
 .hero {
@@ -43,18 +46,21 @@ p {
   width: 100%;
   background-color: black;
 }
+
 .hero__header .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 30px;
 }
+
 .hero__header .header__right {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   gap: 1rem;
 }
+
 .hero__header .menu {
   list-style: none;
   display: flex;
@@ -62,35 +68,43 @@ p {
   gap: 1.4rem;
   letter-spacing: 2px;
 }
+
 .hero__header .menu__item {
   list-style: none;
   color: white;
 }
+
 .hero__header .menu__item a:hover {
   border: 3px solid red;
   color: white;
 }
+
 .hero__header .hero__main {
   display: flex;
   padding-inline: 6rem;
 }
-.hero__header .hero__main > div {
+
+.hero__header .hero__main>div {
   flex: 1;
 }
+
 .hero__header .hero__main .hero__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .hero__header .hero__main .hero__img {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-block: 3rem;
 }
+
 .hero__header .hero__main .hero__img img {
   width: 100%;
 }
+
 /****seccion footer****/
 
 footer {
@@ -98,6 +112,7 @@ footer {
   padding: 6rem;
   padding-top: 0;
 }
+
 footer .footer {
   display: flex;
   flex-direction: column;
@@ -107,6 +122,7 @@ footer .footer {
   padding: 2rem;
   position: relative;
 }
+
 footer .footer::before {
   content: "";
   position: absolute;
@@ -116,36 +132,46 @@ footer .footer::before {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.767);
 }
-footer .footer__top, footer .footer__botom {
+
+footer .footer__top,
+footer .footer__botom {
   z-index: 1;
 }
-footer .footer__top > div {
+
+footer .footer__top>div {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-footer .footer__top > div:nth-child(2) {
+
+footer .footer__top>div:nth-child(2) {
   align-items: flex-end;
   font-size: 1.4rem;
 }
+
 footer .footer__top {
   display: flex;
   padding-block: 3rem;
 }
+
 footer .footer__top h2 {
   font-weight: 300;
   font-size: 3rem;
 }
+
 footer .footer .footer__botom {
   display: flex;
   justify-content: space-between;
   color: white;
 }
+
 footer .footer .footer__botom .icons {
   display: flex;
   gap: 0.5rem;
 }
+
+/***seccion inicio***/
 
 .hero__text h4 {
   font-weight: 300;
@@ -206,6 +232,7 @@ h2 {
   background-color: black;
   padding: 6rem;
 }
+
 .enjoy .titles {
   text-align: center;
   padding: 3rem;
@@ -213,15 +240,18 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
+
 .enjoy .titles h4 {
   background-color: red;
   padding: 2rem;
   font-size: 3rem;
 }
+
 .enjoy .titles h2 {
   font-size: 4rem;
   text-shadow: 4px 4px red;
 }
+
 .enjoy .titles p {
   font-size: 2rem;
 }
@@ -236,17 +266,21 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
+
 .card img:hover {
   border: 2px solid rgb(85, 84, 84);
   transform: scale(1.03);
   width: 100%;
 }
+
 .card h4 {
   font-size: 1.6rem;
 }
+
 .card p {
   width: 65%;
 }
+
 .card a:hover {
   box-shadow: 0 0 20px var(--color);
   border: 1px solid red;
@@ -255,6 +289,8 @@ h2 {
   color: rgb(255, 254, 254);
   text-decoration: none;
 }
+
+/***seccion menu***/
 
 .enjoy1 {
   background-color: black;
@@ -277,6 +313,8 @@ h2 {
   font-size: 1.2rem;
 }
 
+/***seccion foodtruck***/
+
 .food {
   background-color: black;
 }
@@ -298,6 +336,8 @@ h2 {
   height: 20vh;
   text-align: center;
 }
+
+/***seccion local***/
 
 .local {
   background-color: black;
@@ -344,128 +384,163 @@ h2 {
     flex-direction: column;
     justify-content: center center;
   }
+
   .header__right {
     align-items: flex-start;
   }
+
   .header__right__menu {
     flex-direction: column;
     align-items: center;
   }
+
   .hero__main {
     flex-direction: column;
   }
+
   .hero__text h1 {
     font-size: 4rem;
   }
+
   .hero__text h2 {
     font-size: 3rem;
   }
+
   .hero__text h4 {
     width: auto;
   }
+
   .hero__img {
     padding-top: 0;
   }
+
   .hero__img__img {
     width: 350px;
   }
+
   .grid {
     display: flex;
     flex-direction: column;
     padding: 2rem;
   }
+
   .grid__item {
     flex: 1;
   }
+
   .grid__item1 {
     padding-bottom: 2rem;
   }
+
   .enjoy {
     padding-inline: 2rem;
   }
+
   .titles {
     padding-inline: 0;
   }
+
   .titles__h2 {
     font-size: 4rem;
   }
+
   .cards {
     flex-direction: column;
   }
+
   .footer {
     padding: 2rem;
   }
+
   .footer__top {
     flex-direction: column;
     padding: 0;
     gap: 2rem;
   }
+
   .footer__botom {
     flex-direction: column;
     gap: 1rem;
   }
+
   .footer__botom .footer__botom .iconos {
     order: -1;
   }
 }
+
 /***SECCION MENU***/
 @media screen and (max-width: 480px) {
   .hero__header {
     flex-direction: column;
     justify-content: center center;
   }
+
   .header__right .menu {
     flex-direction: column;
     align-items: center;
   }
+
   .header__right {
     align-items: flex-start;
   }
+
   .titles h1 {
     font-size: 3rem;
   }
+
   .titles h2 {
     font-size: 2rem;
   }
+
   .caja {
     display: block;
   }
+
   .footer {
     padding: 2rem;
   }
+
   .footer__top {
     flex-direction: column;
     padding: 0;
     gap: 2rem;
   }
+
   .footer__botom {
     flex-direction: column;
     gap: 1rem;
   }
+
   .footer__botom .iconos {
     order: -1;
   }
 }
+
 /***SECCION FOODTRUCK***/
 @media screen and (max-width: 480px) {
   .hero__header {
     flex-direction: column;
     justify-content: center center;
   }
+
   .header__right .menu {
     flex-direction: column;
     align-items: center;
   }
+
   .header__right {
     align-items: flex-start;
   }
+
   .foodtruck1 h1 {
     font-size: 3rem;
   }
+
   .imgfoodtruck {
     width: 100%;
   }
 }
+
 .footer {
   padding: 2rem;
 }
@@ -491,144 +566,182 @@ h2 {
     flex-direction: column;
     justify-content: center center;
   }
+
   .header__right .menu {
     flex-direction: column;
     align-items: center;
   }
+
   .header__right {
     align-items: flex-start;
   }
+
   .local1 h1 {
     font-size: 3rem;
   }
+
   .imglocal img {
     align-self: flex-start;
     width: 100%;
   }
+
   .imglocal p {
     font-size: 1rem;
   }
+
   .imglocal1 img {
     align-self: flex-start;
     width: 100%;
   }
+
   .imglocal1 p {
     font-size: 1rem;
   }
+
   .footer {
     padding: 2rem;
   }
+
   .footer__top {
     flex-direction: column;
     padding: 0;
     gap: 2rem;
   }
+
   .footer__botom {
     flex-direction: column;
     gap: 1rem;
   }
+
   .footer__botom .iconos {
     order: -1;
   }
 }
+
 /***SECCION INFORMACION***/
 @media screen and (max-width: 480px) {
   .hero__header {
     flex-direction: column;
     justify-content: center center;
   }
+
   .header__right .menu {
     flex-direction: column;
     align-items: center;
   }
+
   .header__right {
     align-items: flex-start;
   }
+
   .informacion1 h1 {
     font-size: 2rem;
   }
+
   .informacion2 p {
     text-align: center;
     font-size: 1rem;
   }
+
   .footer {
     padding: 2rem;
   }
+
   .footer__top {
     flex-direction: column;
     padding: 0;
     gap: 2rem;
   }
+
   .footer__botom {
     flex-direction: column;
     gap: 1rem;
   }
+
   .footer__botom .iconos {
     order: -1;
   }
 }
+
 @media screen and (max-width: 449px) {
   .enjoy .titles h4 {
     font-size: 1.9rem;
   }
+
   footer .footer__top h2 {
     font-size: 2rem;
   }
+
   footer .footer__top p {
     font-size: 0.8rem;
   }
+
   .imgfoodtruck {
     width: 100%;
   }
+
   .informacion1 h1 {
     font-size: 1rem;
   }
 }
+
 /****SECCION TABLET****/
 @media screen and (max-width: 769px) {
   .hero__header .header {
     display: inline;
   }
+
   .hero__header .header__right {
     align-items: baseline;
     padding: 0.4rem;
   }
+
   .hero__text h1 {
     font-size: 2rem;
   }
+
   .hero__text h2 {
     font-size: 2rem;
   }
+
   .hero__header .hero__main .hero__img img {
     width: 100%;
   }
+
   .cards {
     display: block;
   }
+
   .caja {
     grid-template-columns: none;
     text-align: center;
   }
+
   .enjoy .titles h2 {
     font-size: 3rem;
   }
+
   .foodtruck1 h1 {
     font-size: 2rem;
   }
+
   .imgfoodtruck {
     width: 100%;
   }
 }
+
 /****SECCION DESKTOP***/
 @media screen and (max-width: 958px) {
   .hero__header .menu {
     display: block;
   }
 }
+
 @media screen and (max-width: 728px) {
   .hero__text h4 {
     display: none;
   }
+
   .informacion1 h1 {
     font-size: 2rem;
   }
