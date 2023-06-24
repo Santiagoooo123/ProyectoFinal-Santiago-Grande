@@ -1,64 +1,64 @@
 footer {
-  background-color: black;
-  padding: 6rem;
-  padding-top: 0;
+    background-color: black;
+    padding: 6rem;
+    padding-top: 0;
 
-  .footer {
-      display: flex;
-      flex-direction: column;
-      background-image: url("../img/footer.jpg");
-      background-size: cover;
-      background-position: center center;
-      padding: 2rem;
-      position: relative;
+    .footer {
+        display: flex;
+        flex-direction: column;
+        background-image: url("../img/footer.jpg");
+        background-size: cover;
+        background-position: center center;
+        padding: 2rem;
+        position: relative;
 
-      &::before {
-          content: "";
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-color: rgba(0, 0, 0, 0.767);
-      }
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.767);
+        }
 
-      &__top,
-      &__botom {
-          z-index: 1;
-      }
+        &__top,
+        &__botom {
+            z-index: 1;
+        }
 
-      &__top>div {
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-      }
+        &__top>div {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
 
-      &__top>div:nth-child(2) {
-          align-items: flex-end;
-          font-size: 1.4rem;
-      }
+        &__top>div:nth-child(2) {
+            align-items: flex-end;
+            font-size: 1.4rem;
+        }
 
-      &__top {
-          display: flex;
-          padding-block: 3rem;
+        &__top {
+            display: flex;
+            padding-block: 3rem;
 
 
-          h2 {
-              font-weight: 300;
-              font-size: 3rem;
-          }
-      }
+            h2 {
+                font-weight: 300;
+                font-size: 3rem;
+            }
+        }
 
-      .footer__botom {
-          display: flex;
-          justify-content: space-between;
-          color: white;
+        .footer__botom {
+            display: flex;
+            justify-content: space-between;
+            color: white;
 
-          .icons {
-              display: flex;
-              gap: 0.5rem;
-          }
-      }
-  }
+            .icons {
+                display: flex;
+                gap: 0.5rem;
+            }
+        }
+    }
 }

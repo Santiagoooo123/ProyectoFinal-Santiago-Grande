@@ -29,6 +29,7 @@ p {
   list-style: none;
   color: white;
 }
+/****seccion header****/
 
 .hero {
   background-color: black;
@@ -90,6 +91,7 @@ p {
 .hero__header .hero__main .hero__img img {
   width: 100%;
 }
+/****seccion footer****/
 
 footer {
   background-color: black;
